@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Item:</b>
+  <%= @list.item %>
+</p>
+
+<p>
+  <b>Gender:</b>
+  <%= @list.gender %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @list.price %>
+</p>
+
+<p>
+  <b>Comments:</b>
+  <%= @list.comments %>
+</p>
+
+
+<%= link_to 'Edit', edit_list_path(@list) %> |
+<%= link_to 'Back', lists_path %>
