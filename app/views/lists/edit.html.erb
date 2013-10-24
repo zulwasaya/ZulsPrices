@@ -1,6 +1,18 @@
-<h1>Editing list</h1>
+<div data-role="header">
 
-<%= render 'form' %>
 
-<%= link_to 'Show', @list %> |
-<%= link_to 'Back', lists_path %>
+<h1>Edit Item</h1>
+<%= link_to 'Back', list_path, {"data-icon" =>"back", "class" => "ui-btn-left", "data-theme"=>"b"} %>
+
+  <!-- end .header --></div>
+
+<div data-role="content" data-theme="a" data-transition= "flip">
+  <ul data-role="listview"  data-inset="true">
+
+
+
+    <%= render 'form' %>
+
+
+  </ul>
+  <!-- end .content --></div>

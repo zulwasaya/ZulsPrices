@@ -1,25 +1,57 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <b>Item:</b>
-  <%= @list.item %>
-</p>
-
-<p>
-  <b>Gender:</b>
-  <%= @list.gender %>
-</p>
-
-<p>
-  <b>Price:</b>
-  <%= @list.price %>
-</p>
-
-<p>
-  <b>Comments:</b>
-  <%= @list.comments %>
-</p>
+<div data-role="header">
 
 
-<%= link_to 'Edit', edit_list_path(@list) %> |
-<%= link_to 'Back', lists_path %>
+  <%= link_to 'Back', lists_path, {"data-icon" =>"back", "data-ajax" =>"false", "class" => "ui-btn-left", "data-theme"=>"b"} %>
+
+  <h1> Item:<%= @list.item%> </h1>
+  </br>
+
+
+  <div data-role="navbar"  data-iconpos="top" >
+
+    <ul>
+
+      <li> <%= link_to 'Add Item', new_list_path, "data-icon"=>"plus", "data-theme"=>"b" %></li>
+      <li><%= link_to 'Edit Item',  edit_list_path(@list), {"data-icon" =>"star", "data-theme"=>"b"} %></li>
+      <li><%= link_to 'Delete Item ', list_path(@list), method: :delete, data: { confirm: 'Are you sure?' },"data-icon"=>"minus" , "data-theme"=>"b" %> </li>
+
+
+
+    </ul>
+
+    <p id="notice"><%= notice %></p>
+  </div>
+
+  <!-- end .header --></div>
+
+<div data-role="content" data-theme="e" data-transition= "flip">
+  <ul data-role="listview" data-filter="false" data-inset="true">
+
+
+
+
+    <p>
+      <b>Item:</b>
+      <%= @list.item %>
+    </p>
+
+    <p>
+      <b>Gender:</b>
+      <%= @list.gender %>
+    </p>
+
+    <p>
+      <b>Price:</b>
+      <%= @list.price %>
+    </p>
+
+    <p>
+      <b>Comments:</b>
+      <%= @list.comments %>
+    </p>
+
+
+  </ul>
+  <!-- end .content --></div>
+
+
