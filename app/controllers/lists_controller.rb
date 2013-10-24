@@ -1,8 +1,12 @@
 class ListsController < ApplicationController
+
+  # Check that the user is logged in
+  before_filter :authenticate_user!
+
   # GET /lists
   # GET /lists.json
   def index
-    @lists = List.all
+    @lists = List.all( :order => :item)
 
     respond_to do |format|
       format.html # index.html.erb
