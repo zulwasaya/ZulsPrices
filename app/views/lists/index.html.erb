@@ -18,7 +18,7 @@
 
         <li>
           <%= link_to list.item, list %>
-          <span class="ui-li-count"> <%=list.price%> </span>
+          <span class="ui-li-count"> <%=number_to_currency(list.price,:unit=>"£")%> </span>
         </li>
 
     <% end %>
