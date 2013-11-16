@@ -1,7 +1,7 @@
 
 
 <div data-role="header">
-  <h1>Listing Repair Items</h1>
+  <h1>Listing Shoes Items</h1>
   <!-- end .header --></div>
 
 
@@ -13,7 +13,7 @@
 
 
 
-    <% @repairs.each do |list| %>
+    <% @shoes.each do |list| %>
 
 
         <li>
@@ -33,10 +33,10 @@
 
     <ul>
 
-      <li> <%= link_to 'Add Item', new_repair_path, "data-icon"=>"plus", "data-theme"=>"b" %></li>
+      <li> <%= link_to 'Add Item', new_shoe_path, "data-icon"=>"plus", "data-theme"=>"b" %></li>
 
 
-      <li><%= link_to 'List Items', repairs_path, "data-ajax" =>"false", "data-icon"=>"refresh", "data-theme"=>"b" %> </li>
+      <li><%= link_to 'List Items', shoes_path, "data-ajax" =>"false", "data-icon"=>"refresh", "data-theme"=>"b" %> </li>
 
 
 

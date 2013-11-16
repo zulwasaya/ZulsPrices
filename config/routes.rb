@@ -1,4 +1,7 @@
 ZulsPrices::Application.routes.draw do
+  resources :shoes
+
+
   resources :repairs
 
 

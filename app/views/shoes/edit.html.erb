@@ -1,11 +1,8 @@
-
 <div data-role="header">
 
-  <h1>New repair item</h1>
 
-
-  <%= link_to 'Back', repairs_path, {"data-icon" =>"back", "class" => "ui-btn-left", "data-theme"=>"b"} %>
-
+  <h1>Edit Shoe Items</h1>
+  <%= link_to 'Back', shoe_path, {"data-icon" =>"back", "class" => "ui-btn-left", "data-theme"=>"b"} %>
 
   <!-- end .header --></div>
 
@@ -13,7 +10,10 @@
   <ul data-role="listview"  data-inset="true">
 
 
+
     <%= render 'form' %>
+
 
   </ul>
   <!-- end .content --></div>
+

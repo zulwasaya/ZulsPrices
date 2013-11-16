@@ -35,7 +35,7 @@
 
       <li><%= link_to 'Repairs',  repairs_path, {"data-icon" =>"grid", "data-ajax" =>"false", "data-theme"=>"b"} %></li>
 
-      <li><%= link_to 'Shoes',  lists_path, {"data-icon" =>"grid", "data-ajax" =>"false", "data-theme"=>"b"} %></li>
+      <li><%= link_to 'Shoes',  shoes_path, {"data-icon" =>"grid", "data-ajax" =>"false", "data-theme"=>"b"} %></li>
 
     </ul>
 
@@ -43,27 +43,9 @@
 
 <%= yield %>
 
-<div data-role="footer">
-
-  <div data-role="navbar" data-position="fixed" data-iconpos="top" >
-
-    <ul>
-
-      <li> <%= link_to 'Add Item', new_list_path, "data-icon"=>"plus", "data-theme"=>"b" %></li>
-
-
-      <li><%= link_to 'List Items', lists_path, "data-ajax" =>"false", "data-icon"=>"refresh", "data-theme"=>"b" %> </li>
-
-
-
-
-
-    </ul>
-
-  </div>
-
-  <h4>Digiserve Copyright 2013</h4>
-  <!-- end .footer --></div>
+  <div data-role="footer">
+    <h4>Digiserve Copyright 2013</h4>
+    <!-- end .footer --></div>
 
 </body>
 </html>

@@ -1,0 +1,54 @@
+<div data-role="header">
+
+
+  <%= link_to 'Back', shoes_path, {"data-icon" =>"back", "data-ajax" =>"false", "class" => "ui-btn-left", "data-theme"=>"b"} %>
+
+  <h1> Item:<%= @shoe.item%> </h1>
+  </br>
+
+
+  <div data-role="navbar"  data-iconpos="top" >
+
+    <ul>
+
+      <li> <%= link_to 'Add Item', new_shoe_path, "data-icon"=>"plus", "data-theme"=>"b" %></li>
+      <li><%= link_to 'Edit Item',  edit_shoe_path(@shoe), {"data-icon" =>"star", "data-theme"=>"b"} %></li>
+      <li><%= link_to 'Delete Item ', shoe_path(@shoe), method: :delete, data: { confirm: 'Are you sure?' },"data-icon"=>"minus" , "data-theme"=>"b" %> </li>
+
+
+
+    </ul>
+
+    <p id="notice"><%= notice %></p>
+  </div>
+
+  <!-- end .header --></div>
+
+<div data-role="content" data-theme="e" data-transition= "flip">
+  <ul data-role="listview" data-filter="false" data-inset="true">
+
+
+<p>
+  <b>Item:</b>
+  <%= @shoe.item %>
+</p>
+
+<p>
+  <b>Gender:</b>
+  <%= @shoe.gender %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @shoe.price %>
+</p>
+
+<p>
+  <b>Comment:</b>
+  <%= @shoe.comment %>
+</p>
+
+</ul>
+<!-- end .content --></div>
+
+
