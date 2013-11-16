@@ -6,7 +6,7 @@ class ShoesController < ApplicationController
   # GET /shoes
   # GET /shoes.json
   def index
-    @shoes = Shoe.all
+    @shoes = Shoe.all( :order => :item)
 
     respond_to do |format|
       format.html # index.html.erb
