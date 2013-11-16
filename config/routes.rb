@@ -1,4 +1,7 @@
 ZulsPrices::Application.routes.draw do
+  resources :repairs
+
+
   devise_for :users
 
   resources :lists

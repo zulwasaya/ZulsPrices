@@ -26,6 +26,21 @@
     <%= content_tag :div, msg, :id => "flash_#{name}" %>
 <% end %>
 
+<div data-role="header">
+  <div data-role="navbar"  data-iconpos="top" >
+
+    <ul>
+
+      <li><%= link_to 'Clean',  lists_path, {"data-icon" =>"grid", "data-ajax" =>"false", "data-theme"=>"b"} %></li>
+
+      <li><%= link_to 'Repairs',  repairs_path, {"data-icon" =>"grid", "data-ajax" =>"false", "data-theme"=>"b"} %></li>
+
+      <li><%= link_to 'Shoes',  lists_path, {"data-icon" =>"grid", "data-ajax" =>"false", "data-theme"=>"b"} %></li>
+
+    </ul>
+
+<!-- end .header --></div>
+
 <%= yield %>
 
 <div data-role="footer">
