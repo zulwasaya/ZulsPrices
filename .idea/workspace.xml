@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/list.rb" afterPath="$PROJECT_DIR$/app/models/list.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/repair.rb" afterPath="$PROJECT_DIR$/app/models/repair.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/shoe.rb" afterPath="$PROJECT_DIR$/app/models/shoe.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ZulsPrices.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1384655316175" ignored="false" />
+    <file path="/Dummy.txt" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1384660972772" ignored="false" />
     <file path="/routes.rb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1382460281449" ignored="false" />
     <file path="/application.html.erb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1384575412603" ignored="false" />
     <file path="/edit.html.erb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1384574779907" ignored="false" />
@@ -22,7 +20,7 @@
     <file path="/20131116031711_create_repairs.rb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1384572068853" ignored="false" />
     <file path="/20131116035539_create_shoes.rb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1384574207525" ignored="false" />
     <file path="/list.rb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1384658838385" ignored="false" />
-    <file path="/repair.rb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1384658718930" ignored="false" />
+    <file path="/repair.rb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1384661007842" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,19 +85,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="repair.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="repair.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/repair.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="81" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+            <state line="4" column="101" selection-start="340" selection-end="340" vertical-scroll-proportion="0.21518987">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shoe.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="shoe.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/shoe.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="68" selection-start="249" selection-end="249" vertical-scroll-proportion="0.21656051">
+            <state line="4" column="68" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -117,7 +115,7 @@
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/lists/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="7.8461537">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -212,6 +210,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -943,7 +942,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -960,9 +958,9 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="FullScreen" value="false" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1146,13 +1144,6 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -1182,6 +1173,13 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
@@ -1290,13 +1288,13 @@
       <method />
     </configuration>
     <list size="7">
-      <item index="0" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="2" class="java.lang.String" itemvalue="Rails.Production: ZulsPrices" />
-      <item index="3" class="java.lang.String" itemvalue="Rails.Development: ZulsPrices" />
-      <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate" />
-      <item index="5" class="java.lang.String" itemvalue="Rake.routes" />
-      <item index="6" class="java.lang.String" itemvalue="Rake.db:test:prepare" />
+      <item index="0" class="java.lang.String" itemvalue="Rake.db:migrate" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.routes" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.db:test:prepare" />
+      <item index="3" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="4" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="5" class="java.lang.String" itemvalue="Rails.Production: ZulsPrices" />
+      <item index="6" class="java.lang.String" itemvalue="Rails.Development: ZulsPrices" />
     </list>
     <recent_temporary>
       <list size="3">
@@ -1370,7 +1368,11 @@
       <created>1384655327475</created>
       <updated>1384655327475</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added inclusion checks for gender and garment in the models">
+      <created>1384659215135</created>
+      <updated>1384659215135</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1397,23 +1399,23 @@
     <frame x="11" y="79" width="1346" height="673" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283859" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3432282" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23676012" sideWeight="0.67225325" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2406542" sideWeight="0.67346936" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22897196" sideWeight="0.283054" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32774675" sideWeight="0.34890965" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32774675" sideWeight="0.6510903" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3265306" sideWeight="0.34890965" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32774675" sideWeight="0.6510903" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932332" sideWeight="0.5854092" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1461,7 +1463,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added validation in the models" />
+    <option name="LAST_COMMIT_MESSAGE" value="added inclusion checks for gender and garment in the models" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1485,6 +1487,7 @@
     <MESSAGE value="Added shoes table" />
     <MESSAGE value="ordered by item" />
     <MESSAGE value="added validation in the models" />
+    <MESSAGE value="added inclusion checks for gender and garment in the models" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1497,37 +1500,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shoes/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="53" column="0" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shoes/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="28" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="49" column="28" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shoes/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="18" column="0" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/repairs/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="54" column="0" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/repairs/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="19" column="0" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/repairs/index.html.erb">
@@ -1574,14 +1567,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/lists/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="7.8461537">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/repair.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="81" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1595,7 +1581,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/shoe.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="68" selection-start="249" selection-end="249" vertical-scroll-proportion="0.21656051">
+        <state line="4" column="68" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/repair.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="101" selection-start="340" selection-end="340" vertical-scroll-proportion="0.21518987">
           <folding />
         </state>
       </provider>
