@@ -7,11 +7,11 @@
     </list>
     <ignored path="ZulsPrices.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1396898020102" ignored="false" />
+    <file path="/Dummy.txt" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1396898167704" ignored="false" />
     <file path="/routes.rb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1382460281449" ignored="false" />
     <file path="/application.html.erb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1384575412603" ignored="false" />
     <file path="/edit.html.erb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1384574779907" ignored="false" />
-    <file path="/index.html.erb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1396898108570" ignored="false" />
+    <file path="/index.html.erb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1396898696194" ignored="false" />
     <file path="/new.html.erb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1384574910375" ignored="false" />
     <file path="/show.html.erb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1384575224084" ignored="false" />
     <file path="/lists_controller.rb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1384509161617" ignored="false" />
@@ -43,7 +43,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/lists/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="155" selection-start="487" selection-end="487" vertical-scroll-proportion="0.51342285">
+            <state line="21" column="8" selection-start="620" selection-end="620" vertical-scroll-proportion="0.6317568">
               <folding />
             </state>
           </provider>
@@ -1207,13 +1207,13 @@
       <method />
     </configuration>
     <list size="7">
-      <item index="0" class="java.lang.String" itemvalue="Rake.db:migrate" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.routes" />
-      <item index="2" class="java.lang.String" itemvalue="Rake.db:test:prepare" />
-      <item index="3" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="4" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="5" class="java.lang.String" itemvalue="Rails.Production: ZulsPrices" />
-      <item index="6" class="java.lang.String" itemvalue="Rails.Development: ZulsPrices" />
+      <item index="0" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="2" class="java.lang.String" itemvalue="Rails.Production: ZulsPrices" />
+      <item index="3" class="java.lang.String" itemvalue="Rails.Development: ZulsPrices" />
+      <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate" />
+      <item index="5" class="java.lang.String" itemvalue="Rake.routes" />
+      <item index="6" class="java.lang.String" itemvalue="Rake.db:test:prepare" />
     </list>
     <recent_temporary>
       <list size="3">
@@ -1311,7 +1311,11 @@
       <created>1396892138799</created>
       <updated>1396892138799</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added 10 % and 20% to base price on one line">
+      <created>1396898188821</created>
+      <updated>1396898188821</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1338,15 +1342,16 @@
     <frame x="19" y="36" width="1346" height="673" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283859" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3432282" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25623053" sideWeight="0.67346936" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25623053" sideWeight="0.67225325" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22897196" sideWeight="0.283054" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3265306" sideWeight="0.34890965" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32774675" sideWeight="0.34890965" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32774675" sideWeight="0.6510903" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1354,7 +1359,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932332" sideWeight="0.5854092" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1515,7 +1519,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/lists/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="155" selection-start="487" selection-end="487" vertical-scroll-proportion="0.51342285">
+        <state line="21" column="8" selection-start="620" selection-end="620" vertical-scroll-proportion="0.6317568">
           <folding />
         </state>
       </provider>
