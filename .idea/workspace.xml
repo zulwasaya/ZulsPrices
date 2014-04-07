@@ -7,11 +7,11 @@
     </list>
     <ignored path="ZulsPrices.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1396898167704" ignored="false" />
+    <file path="/Dummy.txt" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1396898918435" ignored="false" />
     <file path="/routes.rb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1382460281449" ignored="false" />
     <file path="/application.html.erb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1384575412603" ignored="false" />
     <file path="/edit.html.erb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1384574779907" ignored="false" />
-    <file path="/index.html.erb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1396898696194" ignored="false" />
+    <file path="/index.html.erb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1396899321474" ignored="false" />
     <file path="/new.html.erb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1384574910375" ignored="false" />
     <file path="/show.html.erb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1384575224084" ignored="false" />
     <file path="/lists_controller.rb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1384509161617" ignored="false" />
@@ -43,7 +43,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/lists/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="8" selection-start="620" selection-end="620" vertical-scroll-proportion="0.6317568">
+            <state line="20" column="100" selection-start="432" selection-end="432" vertical-scroll-proportion="0.5743243">
               <folding />
             </state>
           </provider>
@@ -1315,7 +1315,11 @@
       <created>1396898188821</created>
       <updated>1396898188821</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="added 10 % and 20% to base price on one line">
+      <created>1396898926603</created>
+      <updated>1396898926603</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1519,7 +1523,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/lists/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="8" selection-start="620" selection-end="620" vertical-scroll-proportion="0.6317568">
+        <state line="20" column="100" selection-start="432" selection-end="432" vertical-scroll-proportion="0.5743243">
           <folding />
         </state>
       </provider>

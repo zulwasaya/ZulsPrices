@@ -18,7 +18,7 @@
 
         <li>
           <%= link_to list.item, list %>
-          <span class="ui-li-count"> Minus 10%= <%=number_to_currency(list.price*0.9,:unit=>"£")%>Base=<%=number_to_currency(list.price,:unit=>"£")%>Plus 10%= <%=number_to_currency(list.price*1.1,:unit=>"£")%> Plus 20%=  <%=number_to_currency(list.price*1.2,:unit=>"£")%> </span>
+          <span class="ui-li-count"> Minus 10%= <%=number_to_currency(list.price*0.9,:unit=>"£")%>, Base Price=<%=number_to_currency(list.price,:unit=>"£")%>, Plus 10%= <%=number_to_currency(list.price*1.1,:unit=>"£")%>, Plus 20%=  <%=number_to_currency(list.price*1.2,:unit=>"£")%> </span>
         </li>
     <% end %>
   </ul>
