@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/lists/index.html.erb" afterPath="$PROJECT_DIR$/app/views/lists/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/repairs/index.html.erb" afterPath="$PROJECT_DIR$/app/views/repairs/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shoes/index.html.erb" afterPath="$PROJECT_DIR$/app/views/shoes/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ZulsPrices.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1396898918435" ignored="false" />
+    <file path="/Dummy.txt" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1396899419414" ignored="false" />
     <file path="/routes.rb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1382460281449" ignored="false" />
     <file path="/application.html.erb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1384575412603" ignored="false" />
     <file path="/edit.html.erb" changelist="d157bcb5-ce5e-4f15-b8f4-b76eee484f67" time="1384574779907" ignored="false" />
@@ -40,10 +41,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/lists/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="100" selection-start="432" selection-end="432" vertical-scroll-proportion="0.5743243">
+            <state line="20" column="3" selection-start="332" selection-end="622" vertical-scroll-proportion="-6.5384617">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/repairs/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="40" selection-start="331" selection-end="331" vertical-scroll-proportion="0.4695946">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/shoes/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="40" selection-start="328" selection-end="328" vertical-scroll-proportion="-6.6923075">
               <folding />
             </state>
           </provider>
@@ -79,14 +98,14 @@
         <option value="$PROJECT_DIR$/app/views/shoes/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shoes/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shoes/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/shoes/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/repairs/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/repairs_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/shoes_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/list.rb" />
         <option value="$PROJECT_DIR$/app/models/shoe.rb" />
         <option value="$PROJECT_DIR$/app/models/repair.rb" />
         <option value="$PROJECT_DIR$/app/views/lists/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/shoes/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/repairs/index.html.erb" />
       </list>
     </option>
   </component>
@@ -1319,7 +1338,11 @@
       <created>1396898926603</created>
       <updated>1396898926603</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added 10 % and 20% to base price on one line">
+      <created>1396899426728</created>
+      <updated>1396899426728</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1449,11 +1472,6 @@
         <state line="53" column="0" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shoes/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="28" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shoes/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0" />
@@ -1516,14 +1534,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/repairs/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="851" selection-end="851" vertical-scroll-proportion="0.562701" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/lists/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="100" selection-start="432" selection-end="432" vertical-scroll-proportion="0.5743243">
+        <state line="20" column="3" selection-start="332" selection-end="622" vertical-scroll-proportion="-6.5384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shoes/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="40" selection-start="328" selection-end="328" vertical-scroll-proportion="-6.6923075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/repairs/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="40" selection-start="331" selection-end="331" vertical-scroll-proportion="0.4695946">
           <folding />
         </state>
       </provider>
